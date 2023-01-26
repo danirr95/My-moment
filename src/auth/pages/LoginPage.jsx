@@ -48,7 +48,7 @@ export const LoginPage = () => {
   //Almacenamos en la constante 'onGoogleSignIn' la función que dispara el botón de google
   const onGoogleSignIn = () => {
     //Mensaje de comprobación por consola
-    console.log("onGoogleSignIn");
+    //console.log("onGoogleSignIn");
     //Al ejecutarse esta función, se despacha a nuestro store la función 'startGoogleSignIn()' la cual se encarga de hacer el login con google
     dispatch(startGoogleSignIn());
   };
